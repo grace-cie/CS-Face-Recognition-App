@@ -1,0 +1,5 @@
+<!ELEMENT phpunit (testsuites)>
+<!ATTLIST phpunit bootstrap CDATA #REQUIRED>
+<!ATTLIST phpunit colors NMTOKEN #REQUIRED>
+<!ATTLIST phpunit stopOnFailure NMTOKEN #REQUIRED>
+<!ELEMENT testsuites (#PCDATA)>

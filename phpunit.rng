@@ -1,0 +1,34 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+     datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+     <start>
+          <ref name="phpunitContent" />
+     </start>
+     <define name="phpunitContent">
+          <element name="phpunit">
+               <ref name="testsuitesContent" />
+               <attribute name="bootstrap" />
+               <attribute name="colors">
+                    <data type="boolean" />
+               </attribute>
+               <attribute name="stopOnFailure">
+                    <data type="boolean" />
+               </attribute>
+          </element>
+     </define>
+     <define name="testsuitesContent">
+          <element name="testsuites">
+               <ref name="testsuiteContent" />
+          </element>
+     </define>
+     <define name="testsuiteContent">
+          <element name="testsuite">
+               <ref name="directoryContent" />
+               <attribute name="name" />
+          </element>
+     </define>
+     <define name="directoryContent">
+          <element name="directory">
+               <text />
+          </element>
+     </define>
+</grammar>

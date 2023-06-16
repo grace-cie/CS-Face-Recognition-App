@@ -1,0 +1,7 @@
+ID,UUID,LASTNAME,FIRSTNAME,MIDDLENAME,SUFFIX,EMAIL,PHONE,ADDRESS,NATIONALITY,DISPOSITION,GUARDIAN_FULLNAME,GUARDIAN_EMAIL,GUARDIAN_PHONE,IMAGES
+1,07592486362,Doe,John,Smith,,john.doe@example.com,1234567890,"123 Main St",USA,Gr11,"Jane Doe",jane.doe@example.com,9876543210,
+2,84054892013,Avenido,Harvey,D.,,harvey_dako_oten@example.com,9876543210,"456 Elm St",USA,Gr11,"John Smith",john.smith@example.com,1234567890,
+3,63049814941,Alonzo,Jose,wkwk,,okok@example.com,5555555555,"789 Oak St",USA,3rd,"Jennifer Johnson",jennifer.johnson@example.com,8888888888,
+4,56477140578,one,John,Smith,,john.doe@example.com,1234567890,"123 Main St",USA,Gr11,"Jane Doe",jane.doe@example.com,9876543210,
+5,66640126069,two,Harvey,D.,,harvey_dako_oten@example.com,9876543210,"456 Elm St",USA,Gr11,"John Smith",john.smith@example.com,1234567890,
+6,06552988959,three,Jose,wkwk,,okok@example.com,5555555555,"789 Oak St",USA,3rd,"Jennifer Johnson",jennifer.johnson@example.com,8888888888,

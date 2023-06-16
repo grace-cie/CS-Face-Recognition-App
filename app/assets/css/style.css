@@ -1,0 +1,74 @@
+.container {
+     display: flex;
+     height: 86vh;
+}
+
+.camera {
+     padding: 0;
+     margin: 0;
+     width: 100vw;
+     /* height: 100vh; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+canvas {
+     position: absolute;
+     top: 156px;
+     left: 63px;
+}
+
+/* .inputs {
+     padding-top: 9%;
+} */
+
+.video {
+     border: 2px solid #ccc;
+     border-radius: 8px;
+     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+     /* box-shadow: 0 0 10px rgba(0, 200, 0, 0.5); */
+}
+
+.video .loading-indicator {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 24px;
+     color: #fff;
+}
+
+.video-success {
+     border: 2px solid #ccc;
+     border-radius: 8px;
+     box-shadow: 0 0 36px 14px rgba(0, 200, 0, 0.5);
+}
+
+.video-error {
+     border: 2px solid #ccc;
+     border-radius: 8px;
+     box-shadow: 0 0 36px 14px rgb(239 51 8 / 50%);
+}
+
+.card-cont {
+     height: 33vh;
+}
+
+.graph-cont {
+     width: 114vh;
+}
+
+#salesChart {
+     position: absolute;
+     top: 156px;
+     left: 28px;
+}
+
+.rec-cont {
+     width: 211vh;
+}
+
+.divider {
+     width: 143vh;
+}
